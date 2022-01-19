@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QgisMobileApp.MainPage">
+
+    <StackLayout>
+        <ActivityIndicator x:Name="activity" Color="Red" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                              AbsoluteLayout.LayoutBounds="0,0,100,100">
+        </ActivityIndicator>
+        
+        <Frame BackgroundColor="#070C18"  Padding="24" CornerRadius="0">
+            <Label Text="Welcome to QGIS" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <!-- use a custom Markup Extension -->
+            <Image Source="Kent_2017.png" />
+        </StackLayout>
+        <Button x:Name="btn" Text="click here!" Clicked="btn_Clicked"></Button>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height,    initial-scale=1, shrink-to-fit=yes">
+<!--      <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.min.css' %}">-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://code.jquery.com/jquery-1.12.4.min.js">
+    <title>QGIS</title>
+<style>
+    /* Bottom right text */
+.bottom-right {
+    background-color: black;
+  position: absolute;
+  bottom: 8px;
+  width: 250px;
+  height: 200px;
+  right: 16px;
+  z-index: 1999;
+  color:white;
+  padding-top: 10px;
+
+}
+</style>
+</head>
+
+<body>
+    <header style="position: fixed;">
+        <div class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/logo/logo-udel1.png">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/map">Map</a></li>
+                        <li><a href="/tutorial">Tutorial</a></li>
+                        <li><a href="/">Publications</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>        
+      </header>
+
+
+
+    <div class="bottom-right">
+        
+        <ul>
+            <li>
+                <span style="background-color: #12a72d; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> - Forest</li>
+            <li>
+                <span style="background-color: #adcfe6; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   - Marsh
+                </li>
+            <li> 
+                <span style="background-color: #800080; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    - Salt Water Intrusion
+                </li>
+            <li>
+                <span style="background-color: #ffffbf; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    - Built</li>
+            <li>
+                <span style="background-color: #071fee; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   - Open Water
+                </li>
+            <li>
+                <span style="background-color: #ff8c15; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   - Crop Fields</li>
+            <li>
+                <span style="background-color:#fffdd0; width: 30px;height:30px">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   - Bare Soil Areas</li>
+            <li><span style="background-color: #2b83ba; width: 30px;height:30px">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+               - Open Field</li>
+        </ul>
+    </div>
+    {{ my_map|safe }}
+</body>

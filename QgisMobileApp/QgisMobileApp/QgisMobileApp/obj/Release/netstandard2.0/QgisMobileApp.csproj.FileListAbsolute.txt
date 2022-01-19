@@ -1,0 +1,14 @@
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\bin\Release\netstandard2.0\QgisMobileApp.deps.json
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\bin\Release\netstandard2.0\QgisMobileApp.dll
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\bin\Release\netstandard2.0\ref\QgisMobileApp.dll
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\bin\Release\netstandard2.0\QgisMobileApp.pdb
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\RasterView.xaml.g.cs
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\QgisMobileApp.AssemblyInfoInputs.cache
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\QgisMobileApp.AssemblyInfo.cs
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\QgisMobileApp.csproj.CoreCompileInputs.cache
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\XamlC.stamp
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\QgisMobileApp.dll
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\ref\QgisMobileApp.dll
+C:\Microsoft Sanjay\SaumyaSoniProjects\QgisMobileApp\QgisMobileApp\QgisMobileApp\obj\Release\netstandard2.0\QgisMobileApp.pdb

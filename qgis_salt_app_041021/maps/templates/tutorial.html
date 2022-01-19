@@ -1,0 +1,615 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QGIS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script  src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <meta name="keywords" content="artificial intelligence, environmental sustainability, Artificial Intelligence and Environmental Sustainability, AI, environment, sustainability" />
+    <meta name="description" content = "AI for Environment| Artificial Intelligence(AI) has the potential to transform and revolutionize the world on a path of progression and prosperity for all living things" />
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/favicon.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/css/style.css">
+    <link rel="stylesheet" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/css/slider.css">
+    <!-- <link rel="stylesheet" href="css/fontawesome.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/css/animate.css">
+    <style>
+        .fa {color: #e5e5e5;}
+    </style>
+    
+	<style> 
+		.demo{ background: #f8f8f8; background-attachment:fixed; background-image:url(https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/testimonials-bg.jpg); background-repeat:no-repeat; background-size:cover; min-height:310px; padding:30px 0px;}
+		.testimonial{
+			margin: 0 20px 40px;
+		}
+		.testimonial .testimonial-content{
+			padding: 35px 25px 35px 50px;
+			background: rgba(255, 255, 255, 0.1);
+			border: 1px solid #f0f0f0;
+			position: relative;
+		}
+		.testimonial .testimonial-content:after{
+			content: "";
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: #fff;
+			position: absolute;
+			bottom: -10px;
+			left: 22px;
+			transform: rotate(45deg);
+		}
+		.testimonial-content .testimonial-icon{
+			width: 50px;
+			height: 45px;
+			background: #135079;
+			text-align: center;
+			font-size: 22px;
+			color: #fff;
+			line-height: 42px;
+			position: absolute;
+			top: 37px;
+			left: -19px;
+		}
+		.testimonial-content .testimonial-icon:before{
+			content: "";
+			border-bottom: 16px solid #093f63;
+			border-left: 18px solid transparent;
+			position: absolute;
+			top: -16px;
+			left: 1px;
+		}
+		.testimonial .description{
+			font-size: 15px;
+			font-style: italic;
+			color: #fff;
+			line-height: 23px;
+			margin: 0;
+		}
+		.testimonial .title{
+			display: block;
+			font-size: 18px;
+			font-weight: 700;
+			color: #fff;
+			text-transform: capitalize;
+			letter-spacing: 1px;
+			margin: 0 0 5px 0;
+			text-align:left;
+			padding:21px 21px 0px 0px;
+		}
+		.testimonial .post{
+			padding:0px 0px 21px 0px;
+			display: block;
+			font-size: 14px;
+			color: #f1f1f1;
+		}
+		.owl-theme .owl-controls{
+			margin-top: 20px;
+		}
+		.owl-theme .owl-controls .owl-page span{
+			background: #ccc;
+			opacity: 1;
+			transition: all 0.4s ease 0s;
+		}
+		.owl-theme .owl-controls .owl-page.active span,
+		.owl-theme .owl-controls.clickable .owl-page:hover span{
+			background: #ff4242;
+		}
+	</style>
+    
+    <style>
+.customer-servicebox {
+    float: left;
+	width: 100%;
+	min-height:630px;
+    background: #fff;
+    height: 100%;
+	border:2px solid #90d8d2;
+	margin-bottom:25px;
+}
+
+.customerservice-leftbox {
+    float: left;
+    width: 30%;
+    border-right: 1px solid #f2f5fa;
+}
+
+.customerservice-logobox {
+    min-height: 80px;
+    position: relative;
+}
+
+.customerservice-logobox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    max-width: 110px;
+}
+
+.customerservice-imgbox {
+    height: 240px;
+    background-size: cover!important;
+    background-position: center center!important;
+}
+
+.customerservice-rightbox {
+    float: left;
+    width: 70%;
+    padding: 80px 26px 20px 40px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: italic;
+    color: #76778d;
+    font-family: 'Chaparral Pro';
+}
+
+.customerservice-rightbox h4 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+	
+.sub-header {
+    background-color: #00296b;
+    height: 46px;
+    line-height: 46px;
+}
+
+.sub-header ul li {
+    display: inline-block;
+}
+
+.sub-header ul.left-info li {
+    border-left: 1px solid rgba(250,250,250,0.3);
+    padding: 0px 20px;
+}
+
+.sub-header ul.left-info li:last-child {
+    border-right: 1px solid rgba(250,250,250,0.3);
+}
+
+.sub-header ul.left-info li i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sub-header ul.left-info li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sub-header ul.right-icons {
+    float: right;
+}
+
+.sub-header ul.right-icons li {
+    margin-right: -4px;
+    width: 46px;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid rgba(250,250,250,0.3);
+}
+
+.sub-header ul.right-icons li:first-child {
+    border-left: 1px solid rgba(250,250,250,0.3);
+}
+
+.sub-header ul.right-icons li a {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sub-header ul.right-icons li a:hover {
+    opacity: 0.75;
+}
+
+/* Header Style */
+header {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    height: 110px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.background-header .navbar {
+    padding: 10px 0px;
+}
+
+.background-header {
+    top: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .92) !important;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition:all 0.5s ease;
+}
+
+.background-header .navbar-brand h2 {
+    color: #05579e!important;
+}
+
+.background-header .navbar-nav .nav-link:hover,
+.background-header .navbar-nav .active>.nav-link,
+.background-header .navbar-nav .nav-link.current,
+.background-header .navbar-nav .nav-link.show,
+.background-header .navbar-nav .show>.nav-link {
+    color: #ffc300 !important;
+}
+.navbar .navbar-brand {
+    float:  left;
+    margin-top: 12px;
+    outline: none;
+}
+.navbar .navbar-brand h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.navbar .navbar-brand h2 em {
+    font-style: normal;
+    font-size: 16px;
+}
+#navbarResponsive {
+    z-index: 999;
+}
+.navbar-collapse {
+    text-align: center;
+}
+.navbar {padding:0rem 1rem !important;}
+.navbar .navbar-nav .nav-item {
+    margin: 0px 10px;
+    border-bottom:2px solid transparent;
+    /*background-color: #00509d;*/
+    border-radius: 5px;
+    padding: 40px 10px;
+}
+.navbar .navbar-nav .nav-item:hover {
+    border-bottom:3px solid #ffc300;
+}
+
+.navbar .navbar-nav .nav-item:hover a {
+    color: #ffc300;
+}
+
+.navbar .navbar-nav a.nav-link {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #00296b;
+    transition: all 0.5s;
+    margin-top: 5px;
+    padding:0px;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: none;
+}
+.navbar .navbar-toggler {
+    border-color: #fff;
+    background-color: #fff; 
+    height: 36px;
+    outline: none;
+    border-radius: 0px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.navbar .navbar-toggler-icon:after {
+    content: '\f0c9';
+    color: #05579e;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'FontAwesome';
+}	
+
+.header{padding: 29px 0;background-image: linear-gradient(#0C7A17 , #003C06);}
+.header .logo {padding-left: 27px; float: left;box-sizing: border-box; }
+.header .nav {padding-top: 10px; float: right;}
+.header .nav ul li {display: inline; margin: 0 18px;}
+.header .nav ul li a{text-decoration: none; color: white; padding: 0 5px  36px;font-size: 25px;}
+.header .nav ul li a:hover{border-bottom: 3px solid white;}
+
+
+.clear{
+    clear: both;
+}
+		
+		
+    </style>    
+	
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPYRE38F46"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DPYRE38F46');
+    </script>
+    <meta name="google-site-verification" content="J34Vh0JMZltxvmTXe7OjhGBbVDgfPZuUOFQ9U_ExC0o" />
+    
+
+</head>
+<body>
+
+<div class="row">
+    
+</div>
+
+<header class="hidden-xs hidden-sm" style="position: fixed;">
+  <div class="header">
+      <div class="container">
+          <div class="logo">
+              <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/logo/logo-udel1.png">
+          </div>
+          <div class="nav">
+              <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/map">Map</a></li>
+                  <li><a href="/tutorial">Tutorial</a></li>
+                  <li><a href="/">Publications</a></li>
+              </ul>
+          </div>
+      </div> 
+  </div>        
+</header>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+    </div>
+  </nav>
+
+<!-- tutorial -->
+<section class="tutorial">
+  <div class="container"> 
+          <div class="row">   
+              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-sx-12">    
+              <h1 class="mt-1 mb-1 title">TUTORIAL</h1>
+              <h2 class="mb-5">Abridged Tutorial of how this app was created </h2>
+              <ol>
+                  <li> &nbsp;I first started with the data file type as a tiff (raster) file, so I uploaded them to QGIS. I classified the data into 8 valued classes for the 8 different land-types found in the map.</li><br><br>
+                  <li> &nbsp;I then used location methods such as "getLocation(), showPosition() and getMap()" to get the location of the user and then I outputted the location on the google maps. </li><br><br>
+                  <li> &nbsp;I used PostGreSQL Server Database (open source) to store the data. It can be used to read big Tif files. In this database, I put the raster files (tif files) and then compressed it (in QGIS) so I can insert the raster data into a database. To insert the rastor file into the database, we used this command:<br>
+                  <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/saumya/12.png" style="width: 88%;margin:10px 0;margin-left: 6%; ">
+                  <br>We used raster2pgsql to upload the rastor file into postgre sql. The file name is kent_compressed, the database name is kent_2017 and the user name is 'U postgres' <br><br>
+                  We have a localhost and the port number is 5432.  
+                  Commands to insert raster file data into the postgre sql database: <br><br>
+                  <b>Go to the root folder &nbsp; :&nbsp; </b> C:\Program Files\PostgreSQL\11\bin <br><br>
+                  <b>Insert data &nbsp;:&nbsp; </b> raster2pgsql -I -C -M -t 50x50 "C:\Somerset_2017.tif" -F | psql -d Kent -U postgres -h localhost -p 5432 <br><br>
+                  <h2>Here is a diagram I made to show the process:</h2>
+                  <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/saumya/13.png" style="width: 88%;margin: 10px 0 10px 7%;"><br>
+                  <br><li> &nbsp;I imported the data into postGIS so we can use that data for the frontend (website). Now I am pulling that data and installing the necessary packages to bring that data to the website. <br><br>
+                  <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/saumya/11.png" style="width: 88%;margin: 10px 0 10px 7%;"></li>
+
+             
+              <p>Now I have access to the data and it's whitelisted: </p>
+                  <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/saumya/15.png" style="width: 88%;margin: 10px 0 10px 7%;">
+                  <p>I downloaded the django module to run the command prompt (I installed django using pip install in the command prompt)
+                  In the requirements file in my web app folder, it has all the libraries we need so I imported the libraries in command prompt. 
+                  I am using Visual Studio and Visual Studio Code for the frontend and backend along with several libraries and functions. </p>
+                  <h1>Under maps in views.py we have the code to show the map </h1>
+                  <img src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/images/saumya/14.png" style="width: 88%;margin: 10px 0 10px 7%;">
+               </ol>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer style="background-color: #001402;">
+  <div class="container" >
+      <div class="row">
+          <div class="col-sm-12 text-center" >
+              <p class="copyright">App Created & Written by <a href="https://saumyasoni.com/" style="color: white;">Saumya Soni </a></p>
+          </div>
+      </div>
+  </div>
+</footer>
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+
+
+
+
+    <script src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/jquery-3.3.1.min.js"></script>
+    <script src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/popper.min.js"></script>
+    <script src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/bootstrap.min.js"></script>
+    <script src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/owl.carousel.min.js"></script>
+    <script src="https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/loadImages.js"></script>
+
+
+    
+<script>
+	// Hero slider JS
+	$('.hero-slider').owlCarousel({
+	animateOut: 'fadeOut',
+	animateIn: 'fadeIn',
+	items:1,
+	loop:true,
+	nav:true,
+	dots: true,
+	autoplay: true,
+	})
+</script>
+
+<script src='https://stpubsecdev.blob.core.windows.net/webappassets/qgis/js/owl.carousel.js'></script>
+
+<!-- Blog -->
+<script>
+	$(document).ready(function() {
+
+		var owl = $("#owl-demo1");
+		owl.owlCarousel({
+			items: 3, //10 items above 1000px browser width
+			itemsDesktop: [1000, 3], //5 items between 1000px and 901px
+			itemsDesktopSmall: [900, 2], // 3 items betweem 900px and 601px
+			itemsTablet: [600, 1], //2 items between 600 and 0;
+			itemsMobile: [360, 1] // itemsMobile disabled - inherit from itemsTablet option
+		});
+		// Custom Navigation Events
+		$(".next").click(function() {
+			owl.trigger('owl.next');
+		})
+		$(".prev").click(function() {
+			owl.trigger('owl.prev');
+		})
+		$(".play").click(function() {
+			owl.trigger('owl.play', 1000);
+		})
+		$(".stop").click(function() {
+			owl.trigger('owl.stop');
+		})
+
+	});
+</script>
+
+<!-- News -->
+<script>
+	$(document).ready(function() {
+
+		var owl = $("#news-article");
+		owl.owlCarousel({
+			items: 1, //10 items above 1000px browser width
+			itemsDesktop: [1000, 3], //5 items between 1000px and 901px
+			itemsDesktopSmall: [900, 2], // 3 items betweem 900px and 601px
+			itemsTablet: [600, 1], //2 items between 600 and 0;
+			itemsMobile: [360, 1] // itemsMobile disabled - inherit from itemsTablet option
+		});
+		// Custom Navigation Events
+		$(".next").click(function() {
+			owl.trigger('owl.next');
+		})
+		$(".prev").click(function() {
+			owl.trigger('owl.prev');
+		})
+		$(".play").click(function() {
+			owl.trigger('owl.play', 1000);
+		})
+		$(".stop").click(function() {
+			owl.trigger('owl.stop');
+		})
+
+	});
+</script>
+
+<!-- Testimonials -->
+<script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});
+</script>
+
+<script>
+$.fn.jQuerySimpleCounter = function( options ) {
+	var settings = $.extend({
+		start:  0,
+		end:    100,
+		easing: 'swing',
+		duration: 400,
+		complete: ''
+	}, options );
+
+	var thisElement = $(this);
+
+	$({count: settings.start}).animate({count: settings.end}, {
+		duration: settings.duration,
+		easing: settings.easing,
+		step: function() {
+			var mathCount = Math.ceil(this.count);
+			thisElement.text(mathCount);
+		},
+		complete: settings.complete
+	});
+};
+
+$('#number1').jQuerySimpleCounter({end: 500,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 45,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 19000,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 1000,duration: 2500});
+$('#number5').jQuerySimpleCounter({end: 5,duration: 2500});
+$('#number6').jQuerySimpleCounter({end: 6,duration: 2500});
+
+</script>
+
+<!-- Scroll to Top -->
+<script>
+	$(document).ready(function(){ 
+		$(window).scroll(function(){ 
+			if ($(this).scrollTop() > 100) { 
+				$('#scroll').fadeIn(); 
+			} else { 
+				$('#scroll').fadeOut(); 
+			} 
+		}); 
+		$('#scroll').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+	});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

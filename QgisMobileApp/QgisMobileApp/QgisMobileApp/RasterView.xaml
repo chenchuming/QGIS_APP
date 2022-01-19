@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QgisMobileApp.RasterView">
+   
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Welcome" Clicked="OnBack"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ActivityIndicator x:Name="activity" Color="Red" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                              AbsoluteLayout.LayoutBounds="0,0,100,100">
+            </ActivityIndicator>
+            
+            <WebView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="1000" x:Name="cntrlWebView"></WebView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

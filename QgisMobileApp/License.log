@@ -1,0 +1,75 @@
+    ======  ======
+    Time:29-09-2021 12:12:31
+    Title: Initiate log
+    Message: 
+    Time:29-09-2021 12:12:31
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:29-09-2021 12:12:31
+    Title: Requesting EVT
+    Message: EVTP
+    Time:29-09-2021 12:12:31
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:29-09-2021 12:12:31
+    Title: LICENSER
+    Message: FNF
+    Time:29-09-2021 12:12:33
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Time:29-09-2021 12:12:33
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Product creation from registry failed for:HKEY_LOCAL_MACHINE\Software\Telerik\Reporting\Net4.0
+    Install dir: 
+    Version: 
+    Product creation from registry failed for:HKEY_LOCAL_MACHINE\Software\Telerik\Reporting\R2 2021
+    Install dir: 
+    Version: 
+    No Telerik Reporting products found in registry
+    Entering constructor for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.Converter.VSPackage.VSPackage
+    Entering constructor for: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    Entering Initialize() of: Telerik.VSX.UserSettingsPackage.UserSettingsPackage
+    TR: Assembly resolution failed: Telerik.Windows.Controls.SyntaxEditor, Version=2021.1.114.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7
+    TR: Assembly resolution failed: Telerik.Windows.Themes.VisualStudio2013, Culture=neutral
+    Entering constructor for: Telerik.CommonPackage.VSPackage
+    Entering Initialize() of: Telerik.CommonPackage.VSPackage
+    Entering constructor for: Telerik.Web.UI.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Web.UI.VSPackage.VSPackage
+    TR: Assembly resolution failed: Telerik.VSX.Notifications.1.2.0.0.XmlSerializers, Version=1.2.0.0, Culture=neutral, PublicKeyToken=0dfdc51bd06071b4
+    TR: Assembly resolution failed: Telerik.VSX.Notifications.1.2.0.0.XmlSerializers, Version=1.2.0.0, Culture=neutral, PublicKeyToken=0dfdc51bd06071b4
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.Mvc.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.KendoUI.ASP.NET.Core.VSPackage.VsPackage
+    Entering constructor for: Telerik.WinControls.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.WinControls.VSPackage.VSPackage
+    TR: Assembly resolution failed: Telerik.VSX.Tracking.XmlSerializers, Version=1.4.21.831, Culture=neutral, PublicKeyToken=dac83c33184dc9bb
+    Entering constructor for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering Initialize() for: Telerik.Windows.WPF.VSPackage.VSPackage
+    Entering constructor for: Telerik.Xamarin.UI.VSPackage.VsPackage
+    Entering constructor for: Telerik.Xamarin.UI.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.Xamarin.UI.VSPackage.VsPackage
+    Entering constructor for: Telerik.Blazor.VSPackage.VsPackage
+    Entering constructor for: Telerik.Blazor.VSPackage.VsPackage
+    Entering Initialize() for: Telerik.Blazor.VSPackage.VsPackage
+    ResolveFWLinkAccountManager statusCode is redirect: 'True'
+    ResolveFWLinkAccountManager resovled fwlink from 'https://go.microsoft.com/fwlink/?LinkID=415837' to 'https://app.vssps.visualstudio.com/'
+    TR: Assembly resolution failed: Telerik.JustMock.AddIn.XmlSerializers, Version=2021.2.615.4, Culture=neutral, PublicKeyToken=602a9bfd8c8c4ad7
+    TR: Assembly resolution failed: Telerik.Xamarin.UI.VSX.2021.3.906.2.XmlSerializers, Version=2021.3.906.2, Culture=neutral, PublicKeyToken=0dfdc51bd06071b4
+    Exception e:Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+    devenv.exe Warning: 0 : EnvDTE.OutputWindowPane GetOutputWindowPane(System.String, Boolean): exception thrown while getting output window pane 'JustMock': System.Runtime.InteropServices.COMException (0x80010108): The object invoked has disconnected from its clients. (Exception from HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+   at EnvDTE80.DTE2.get_Windows()
+   at Telerik.JustMock.VS.JustMockPackageImplementation.GetOutputWindowPane(String name, Boolean activate)
+C_E_DISCONNECTED))
+   at EnvDTE80.DTE2.get_Windows()
+   at Telerik.JustMock.VS.JustMockPackageImplementation.GetOutputWindowPane(String name, Boolean activate)
